@@ -18,3 +18,4 @@ def history(request):
 
 def game(request):
     return HttpResponse('<h1> Jeu </h1>')
+

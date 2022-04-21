@@ -25,5 +25,4 @@ urlpatterns = [
     path('connexion/', views.connexion),
     path('game/', views.game),
     path('history/', views.history),
-
 ]
