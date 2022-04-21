@@ -1,9 +1,19 @@
 # back_end
-## 
-### python_pendu v.0.0.1
-####update commited in 19.04.2022 par Marcelo
-- creation d'app 'dictionnaire' - added au fichier settings.py - INSTALLED_APPS - line 42
-- creation du dictionnaire model - models.py
-- updated de la base de données db.sqlite3 avec le modèle - python manage.py migrate
 
-- 
+# To start the project
+
+* Clone the repository <br/><br/>
+
+* Create a python virtual environment:
+  - $ python -m venv env <br/><br/>
+
+* Activate your virtual environment:
+  - $ source env/bin/activate <br/><br/>
+  
+* Go to sub directory "python_pendu" through the command line: <br/>
+     - $ cd python_pendu <br/><br/>
+
+* Run the server with the command : <br/>
+     - $ python manage.py runserver <br/><br/>
+
+* If everything  goes well, you should have your  Django server running at "http://127.0.0.1:8000/" or "http://localhost:8000/"
